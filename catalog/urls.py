@@ -10,3 +10,4 @@ urlpatterns = [
    path('authors/' , views.AuthorListView.as_view(), name='author-list'),
    url(r'^books/book/(?P<pk>\d+)$', views.BookDetailView.as_view(), name='book-detail')
 ]
+
